@@ -8,17 +8,18 @@ Environment | Software | Version | Result
 ------------| ---------| -------|-------
 .NET|	BouncyCastle |1.8.2|	KO
 .NET|	BouncyCastle |1.9.0|	KO
-Java 1.8|	BouncyCastle| 1.46|	KO
-Java 1.8|	BouncyCastle| 1.64|	**OK**
-Java 1.8|	Oracle JRE/JDK (sun.security.pkcs10.PKCS10) |xx|	KO
-Java 1.8|	Oracle Security Developer Tools| 19.3|	**OK**
+Java |	BouncyCastle| 1.46|	KO
+Java |	BouncyCastle| 1.64|	**OK**
+Java |	Oracle JRE/JDK (sun.security.pkcs10.PKCS10) |1.8.0_311|	KO
+Java |	OpenJDK (sun.security.pkcs10.PKCS10) |11.0.11|	KO
+Java |	Oracle Security Developer Tools| 19.3|	**OK**
 Javascript|	PKI.js|	xx|KO
 Linux|	GnuTLS (certtool)| 3.5.18|	**OK**
 Linux|	Golang (crypto/x509)| 1.17.1|	KO
 Linux|	OpenSSL |1.1.1|	KO
-Windows|	CertEnroll.dll|xx|	KO
-Windows|	CertUtil.exe|xx|	KO
-Windows|	OpenSSL |3.0.0|	KO
+Windows 10|	CertEnroll.dll|10.0.19041.746|	KO
+Windows 10|	CertUtil.exe|10.0.19041.1|	KO
+Windows 10|	OpenSSL |3.0.0|	KO
 
 
 
