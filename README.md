@@ -8,8 +8,8 @@ In the following table, a Result "OK" means that the software gives the correct 
 Examples of CSRs carrying a wrong signature can be found in the "data" folder.
 <br><br>
 
-Environment | Software | Version | Result
-------------| ---------| -------|-------
+Environment | Software | Version | Result | Bug report
+------------| ---------| -------|-------|------
 .NET|	BouncyCastle |1.8.2|	KO
 .NET|	BouncyCastle |1.9.0|	KO
 Java |	BouncyCastle| 1.46|	KO
@@ -23,7 +23,7 @@ Linux|	Golang (crypto/x509)| 1.17.1|	KO
 Linux|	OpenSSL |1.1.1|	KO
 Windows 10|	CertEnroll.dll|10.0.19041.746|	KO
 Windows 10|	CertUtil.exe|10.0.19041.1|	KO
-Windows 10|	OpenSSL |3.0.0|	KO
+Windows 10|	OpenSSL |3.0.0|	KO |https://github.com/openssl/openssl/issues/17010
 
 
 
