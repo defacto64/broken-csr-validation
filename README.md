@@ -1,6 +1,8 @@
 # broken-csr-validation
 This repository is for keeping track of a number of software tools/libraries/packages that do not respect RFC2986 in verifying the signature on Certificate Signing Requests (CSRs).
 
+Most software capable of parsing CSRs wrongly assume that the CSR is DER-encoded, and therefore that the signature was computed over the certificationRequestInfo element "AS IS" (as it appears in the CSR). This assumption is wrong, as a BER-encoded CSR is legitimate (although unfrequent). RFC2986 requires DER-encoding the certificationRequestInfo component prior to signing it, so any CSR validating software should do the same on verifying the signature. Unfortunately some do and some don't, leading to interoperability problems.
+
 In the following table, a Result "OK" means that the software gives the correct result (such as "Failed", "Invalid" or the likes) on verifying a _wrong_ signature. Examples of CSRs carrying a wrong signature can be found in the "data" folder.
 <br><br>
 
