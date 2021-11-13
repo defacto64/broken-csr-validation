@@ -24,7 +24,7 @@ Linux|	OpenSSL |1.1.1|	KO
 Windows 10|	CertEnroll.dll|10.0.19041.746|	KO
 Windows 10|	CertUtil.exe|10.0.19041.1|	KO
 Windows 10|	OpenSSL |3.0.0|	KO |https://github.com/openssl/openssl/issues/17010
-Windows 10|PKISolutions' PowerShell PKI Module|3.7|KO
+Windows 10|PKISolutions' PowerShell PKI Module|3.7|KO|https://github.com/PKISolutions/PSPKI/issues/162
 
 
 
