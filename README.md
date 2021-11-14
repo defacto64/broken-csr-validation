@@ -10,14 +10,15 @@ Examples of CSRs carrying a wrong signature can be found in the "data" folder.
 
 Environment | Software | Version | Result | Bug report
 ------------| ---------| -------|-------|------
-.NET|	BouncyCastle |1.8.2|	KO
-.NET|	BouncyCastle |1.9.0|	KO
-Java |	BouncyCastle| 1.46|	KO
-Java |	BouncyCastle| 1.64|	**OK**
+.NET|	BouncyCastle C#|1.8.2|	KO
+.NET|	BouncyCastle C#|1.9.0|	KO
+Java |	BouncyCastle Java| 1.46|	KO
+Java |	BouncyCastle Java| 1.64|	**OK**
 Java |	Oracle JRE/JDK (sun.security.pkcs10.PKCS10) |1.8.0_311|	KO
 Java |	OpenJDK (sun.security.pkcs10.PKCS10) |11.0.11|	KO
 Java |	Oracle Security Developer Tools| 19.3|	**OK**
 Javascript|	PKI.js|	...|KO
+Javascript| forge| 0.7.0|KO
 Linux|	GnuTLS (certtool)| 3.5.18|	**OK**
 Linux|	Golang (crypto/x509)| 1.17.1|	KO|https://github.com/golang/go/issues/49519
 Linux|	OpenSSL |1.1.1|	KO
